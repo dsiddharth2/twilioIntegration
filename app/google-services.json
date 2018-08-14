@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678263917998",
+    "firebase_url": "https://experiment-fcm.firebaseio.com",
+    "project_id": "experiment-fcm",
+    "storage_bucket": "experiment-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678263917998:android:90990a027e17b0dc",
+        "android_client_info": {
+          "package_name": "deshpande.sid.twiliointegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678263917998-95qhcftplpp0ipgo9lole1c9fmcjq1g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCau6kGcOp-ssrOFWuNcLCX5pCwZnLAmUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
