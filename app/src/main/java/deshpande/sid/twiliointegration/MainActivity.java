@@ -195,6 +195,10 @@ public class MainActivity extends AppCompatActivity {
          */
         intializeUI();
 
+        if(getIntent().hasExtra("pickCall")){
+            connectToRoom("ROOM");
+        }
+
         initializeFCM();
     }
 
