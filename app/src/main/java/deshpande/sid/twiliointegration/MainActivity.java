@@ -195,10 +195,6 @@ public class MainActivity extends AppCompatActivity {
          */
         intializeUI();
 
-        if(getIntent().hasExtra("pickCall")){
-            connectToRoom("ROOM");
-        }
-
         initializeFCM();
     }
 
@@ -423,6 +419,10 @@ public class MainActivity extends AppCompatActivity {
                                 String twilioToken = response.getString("twilioToken");
                                 editor.putString("twilioToken", twilioToken);
                                 editor.commit();
+
+                                if(getIntent().hasExtra("pickCall")){
+                                    connectToRoom("ROOM");
+                                }
                             } else {
                                 Toast.makeText(MainActivity.this,"Failed to read the JSON response",Toast.LENGTH_SHORT).show();
                             }
